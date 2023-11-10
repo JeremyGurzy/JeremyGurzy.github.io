@@ -1,0 +1,106 @@
+/*Jeremy Gurzynski
+jgurzynski85952@uat.edu
+30OCT23
+
+    06NOV23
+    Modified for Final Project
+    5-1 Final Project 
+
+
+
+*/
+
+/*Body given light blue background for style
+all text given shadow for better visibility on the eyes.*/
+
+body {
+    background-color: #9ab7d7;
+    text-shadow: 0 0 6px #287fdb;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.paraText {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+/*No nav tag at present time.*/
+nav {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+/*No footer at present time*/
+footer {
+    text-align: center;
+    margin-right: 200px;
+}
+
+/*Meme centered for much better look*/
+#memeimage {
+    margin-right: 200px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+/*No header at present time.*/
+header {
+    text-align: center;
+}
+
+#boardsNav {
+    height: 250px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+#footer {
+    padding-top: 50px;
+}
+
+#gamesNav {
+    height: 1150px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+#stringFooter {
+    padding-top: 600px;
+}
+
+/*Memes padded to left for little extra centering*/
+.meme {
+    padding-left: 30px;
+}
+
+#title {
+    padding-left: 30%;
+    padding-bottom: 20px
+}
+
+/*Gave web page all new column look instead of stacked*/
+.content {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.button {
+    width: 250px;
+    height: 30px;
+    background-color: #3688e1;
+    border-radius: 50px;
+    border-color: red;
+}

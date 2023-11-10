@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Jeremy Gurzynski
+    jgurzynski85952@uat.edu
+    23OCT23
+    This is for week 3 of CSC102
+    We will make an input validation form and a plaindrome checker
+    30OCT23
+    Setting up page to play audio clip of heavy rain
+
+    06NOV23
+    Modified for Final Project
+    5-1 Final Project 
+
+
+
+-->
+
+
+<head>
+    <!--All meta tags correctly assigned for viewing.-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Set the title for the page-->
+    <title>Input Validation</title>
+    <!--Link my js file to the hmtl-->
+    <script src="stringCode.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my strings.html page!</h1>
+    </header>
+    <nav>
+        <h2>Navigation</h2>
+        <a href="index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+        <a href="./game.html">Games</a><br>
+        <a href="./strings.html">Strings</a><br>
+    </nav>
+    <div class="content">
+        <h2>Input Validation Section</h2>
+        <!--loginStatus set for JS-->
+        <div id="loginStatus">Press Submit to login</div>
+        <p>Please submit the following data for validation</p>
+        <!--All text boxes created for input validation-->
+        <form id="creditSubmit" onsubmit="return false">
+            First Name: <input type="text" id="fName"><br><br>
+            Last Name: <input type="text" id="lName"><br><br>
+            Zip Code: <input type="text" id="zCode"><br><br>
+            <br>
+            <!--JS file added to validate input-->
+            <input class="button" type="submit" onclick="checkCreds();"><br><br><br><br>
+            <!--Meme about input validation-->
+            <img id="meme" src="meme.jpg" alt="Meme about input validation.">
+        </form>
+    </div>
+    <br><br>
+    <!--Section for Palindrome fun-->
+    <div class="content">
+        <h2>Palindrome Checker</h2>
+        <br>
+        <div id="palinStatus">Palindrome Status</div>
+        <br>
+        <!--JS File linked for full palindrome checker-->
+        <form id="palingSubmit" onsubmit="return false">
+            Enter possible Palindrome: <input type="text" id="palinInput"><br><br>
+
+            <input class="button" type="Submit" onclick="checkPalin();"><br><br><br><br>
+            <!--Meme about palindrome-->
+            <img id="meme" src="Palindrome.jpg" alt="Meme about palindromes">
+        </form>
+    </div>
+    <br><br><br>
+    <!--Section to play audio-->
+    <div class="content">
+        <h2>Play Audio</h2>
+        <!--JS File linked for audio-->
+        <button class="button" onclick="playStation();">Press to hear the sounds of heavy rain</button><br><br><br><br>
+        <!--Meme about thunderstorms-->
+        <img src="thundermeme.jpg" alt="meme about thunderstorms">
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer id="stringFooter">
+        Jeremy S. Gurzynski<br>
+        University of Advancing Technology<br>
+        2625 W Baseline Rd<br>
+        Tempe, AZ 85283<br>
+        602-383-8228<br>
+    </footer>
+</body>
+
+</html>

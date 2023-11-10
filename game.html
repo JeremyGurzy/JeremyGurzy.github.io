@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Jeremy Gurzynski
+    jgurzynski85952@uat.edu
+    18OCT23
+
+    06NOV23
+    Modified for Final Project
+    5-1 Final Project 
+
+
+
+
+-->
+
+<head>
+    <!--All meta tags correctly assigned for viewing.-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Set the title for the page-->
+    <title>Games Page</title>
+    <!--Link my js file to the hmtl-->
+    <script src="gameCode.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my Games Page!</h1>
+    </header>
+    <nav id="gamesNav">
+        <h2>Navigation</h2>
+        <a href="index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+        <a href="./game.html">Games</a><br>
+        <a href="./strings.html">Strings</a><br>
+    </nav>
+    <!--In honor of the new spiderman game, the theme wis spiderman-->
+    <!--Linked picture of spiderman and venom-->
+    <img src="Spiderman2.jpg">
+    <!--Small dialogue for user experience-->
+    <p>Oh man are you from another dimension?? No time to explain, Venom is here and we need to defeat him!
+        I know this will sound odd, but we need to play Craps to defeat him. Think you can help?
+    </p>
+
+    <br><br>
+    <p>It's simple, click <b>Play Craps</b> to roll your dice. When your spidey senses tingle, you may be close
+        to a win!</p>
+    <!--Game results and text set for playability-->
+    <br><br>
+    Die 1 result: <div id="die1Res">Press Play Craps to start game</div><br>
+    Die 2 result: <div id="die2Res">Press Play Craps to start game</div><br>
+    Sum result: <div id="sumRes">Press Play Craps to start game</div><br>
+    Game result: <div id="gameRes">Press Play Craps to start game</div><br>
+    <!--Button linked for JavaScript game-->
+    <button onclick="theGame();">Play Craps</button>
+    <br><br><br><br>
+    <footer id="footer">
+        Jeremy S. Gurzynski<br>
+        University of Advancing Technology<br>
+        2625 W Baseline Rd<br>
+        Tempe, AZ 85283<br>
+        602-383-8228<br>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Jeremy Gurzynski
+    jgurzynski85952@uat.edu
+    This is my assignment for week 1-1 The Foundation
+
+    30OCT23
+    4-1 Event Driven Programming
+    Add start and stop buttons to start and stop memeImage moving
+    Jeremy Gurzynski
+    jgurzynski85952@uat.edu
+    30OCT23
+
+    06NOV23
+    Modified for Final Project
+    5-1 Final Project 
+    Added a table for assignment
+-->
+<!--head tag set with all required meta tags-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title set for Index page-->
+    <title>Jeremy G's Website</title>
+    <!--Stylesheet linked for stlye from CSS-->
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+</head>
+
+<!--Body tag set with content-->
+
+<body>
+    <header>
+        <h1>Welcome to Jeremy G's Website</h1>
+    </header>
+    <!--Will add everything when needed.
+    Used as placeholder for easier setup of page.-->
+    <nav>
+        <h2>Navigation</h2>
+        <a href="index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+        <a href="./game.html">Games</a><br>
+        <a href="./strings.html">Strings</a><br>
+    </nav>
+    <!--P tag to explain what it is used for-->
+    <p class="paraText">This is a paragraph tag. It is used to display paragraph text separate from all other texts.</p>
+    <!--Enables image movement across webpage-->
+    <marquee id="myMarquee" direction="right">
+        <img id="memeImage" src="funnymeme2.png" alt="Meme about computer science degree">
+    </marquee>
+    <br><br><br><br>
+    <!--For event driven programming, assignment 4.1-->
+    <!--startFun starts the function
+        stopFun stops the function-->
+    <button onclick="startFun();" id="startButton">Start</button><button onclick="stopFun();"
+        id="stopButton">Stop</button>
+    <br><br>
+    <style>
+        td,
+        th {
+            border: 1px solid blue;
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
+    <!--This is a top five list of favorite Marvel movies -->
+    <h2>My Top Five Favorite Marvel Movies</h2>
+    <table style="width: 75%;" class="myMarvelMovies">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Movie Title</th>
+                <th>Date Released</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <!--Number one pick-->
+                <td>One</td>
+                <td>Captain America: The Winter Soldier</td>
+                <td>April 4th, 2014</td>
+            </tr>
+            <tr>
+                <!--Number two pick-->
+                <td>Two</td>
+                <td>Spider-Man: No Way Home</td>
+                <td>December 17, 2021</td>
+            </tr>
+            <tr>
+                <!--Number three pick-->
+                <td>Three</td>
+                <td>Avengers: Endgame</td>
+                <td>April 26, 2019</td>
+            </tr>
+            <tr>
+                <!--Number four pick-->
+                <td>Four</td>
+                <td>Spider-Man 3</td>
+                <td>May 4, 2007</td>
+            </tr>
+            <tr>
+                <!--Number five pick-->
+                <td>Five</td>
+                <td>Spider-Man: Across The Spider-Verse</td>
+                <td>June 2, 2023</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br>
+    <h2>My Top Five Least Favorite Marvel Movies</h2>
+    <table style="width: 75%;" class="myMarvelMovies">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Movie Title</th>
+                <th>Date Released</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <!--Number one pick-->
+                <td>One</td>
+                <td>Eternals</td>
+                <td>November 5, 2021</td>
+            </tr>
+            <tr>
+                <!--Number two pick-->
+                <td>Two</td>
+                <td>Black Widow</td>
+                <td>July 9, 2021</td>
+            </tr>
+            <tr>
+                <!--Number three pick-->
+                <td>Three</td>
+                <td>Thor: The Dark World</td>
+                <td>November 8, 2013</td>
+            </tr>
+            <tr>
+                <!--Number four pick-->
+                <td>Four</td>
+                <td>Venom: Let There Be Carnage</td>
+                <td>October 1, 2021</td>
+            </tr>
+            <tr>
+                <!--Number five pick-->
+                <td>Five</td>
+                <td>Morbius</td>
+                <td>April 1, 2022</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br>
+
+    <footer id="footer">
+        Jeremy S. Gurzynski<br>
+        University of Advancing Technology<br>
+        2625 W Baseline Rd<br>
+        Tempe, AZ 85283<br>
+        602-383-8228<br>
+    </footer>
+</body>
+
+</html>
